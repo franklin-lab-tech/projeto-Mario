@@ -1,0 +1,249 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Super-Mario-Bros {
+
+    height: 200px;
+    margin-right: 70px;
+
+
+}
+
+
+.mario-luigi {
+
+    height: 500px;
+}
+
+
+
+button {
+    background-color: #e30707;
+    color: white;
+    border-radius: 4px;
+    border: none;
+    height: 50px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 30px;
+
+}
+
+
+
+
+
+body {
+    height: 100vh;
+
+}
+
+
+
+.caixa1 {
+    width: 45%;
+    color: white;
+    font-size: 18px;
+
+}
+
+
+
+
+.caixa-video {
+    position: fixed;
+    z-index: -1;
+    top: 0;
+}
+
+video {
+    min-height: 100%;
+    min-width: 100%;
+    position: fixed;
+    top: 0;
+}
+
+.caixa-mae {
+
+    display: flex;
+    align-items: center;
+    padding: 100px;
+    justify-content: space-around;
+    height: 100vh;
+}
+
+.mascara-video {
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(109deg, rgba(10, 12, 16, 0.99) 15%, rgba(10, 12, 16, 0.7) 50%, rgba(10, 12, 16, 0.99) 85%);
+    position: fixed;
+    top: 0;
+}
+
+.destaque {
+    color: #e40808;
+
+}
+
+.audio-mario {
+
+    display: flex;
+    justify-content: left;
+    position: relative;
+    top: -70px;
+}
+
+.icone-watshapp {
+    display: flex;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+}
+
+.imagem-watshapp {
+    height: 70px;
+}
+
+.logo {
+    display: flex;
+    position: fixed;
+    margin-top: 20px;
+    margin-left: 15px;
+    align-items: center;
+    gap: 30px;
+    cursor: pointer;
+    font-size: 23px;
+}
+
+.imagem-logo {
+    height: 60px;
+
+}
+
+.logo a {
+    color: white;
+}
+
+.logo a:hover {
+    color: #e40808;
+    font-size: 35px;
+    transition: 1.5s ease-in-out
+}
+
+button:hover {
+    background-color: blue;
+    transition: 0.5s ease-in-out;
+
+}
+
+.formulario-fale-conosco {
+
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 28%;
+    left: -59vw;
+    padding: 20px;
+    border-radius: 5px;
+    gap: 15px;
+    transition: left 1.5s ease-in-out;
+
+}
+
+input {
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    padding-left: 5px;
+    outline-color: #e30707;
+
+}
+
+textarea {
+    height: 100px;
+    width: 220px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    padding-left: 5px;
+    outline-color: #e30707;
+}
+
+.mascara-formulario {
+    visibility: hidden;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(109deg, rgba(10, 12, 16, 0.99) 15%, rgba(10, 12, 16, 0.7) 50%, rgba(10, 12, 16, 0.99) 85%);
+    transition: visibility 0.5s ease-in-out;
+}
+
+@media(max-width:1008px) 
+
+{
+
+    p {
+
+        display: none;
+
+
+    }
+
+
+
+    .caixa-mae {
+
+        flex-direction: column;
+        padding: 28px;
+    }
+
+    .mario-luigi {
+        height: 300px;
+    }
+
+    .caixa1 {
+        width: 75%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .Super-Mario-Bros {
+        margin-left: 15px;
+    }
+
+    .logo {
+        margin-top: 10px;
+        margin-left: 10px;
+        gap: 10px;
+        font-size: 18px;
+    }
+
+    .caixa2 {
+        position: relative;
+        top: -75px;
+    }
+
+
+    .icone-watshapp {
+        bottom: 100px;
+        right: 47px;
+       
+    }
+
+
+
+   
+        
+
+
+}

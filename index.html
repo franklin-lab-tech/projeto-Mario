@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mario Bros</title>
+</head>
+
+<link rel="stylesheet" href="style.css">
+
+<body>
+    <header class="logo">
+        <img src="./img/logo menu.png" alt="logo-Mario-luigi" class="imagem-logo">
+
+        <a>Home</a>
+        <a>Nossos Serviços</a>
+        <a onclick="mostrarForm()">Fale Conosco</a>
+    </header>
+
+    <div class="mascara-formulario" onclick="esconderForm()"></div>
+
+
+    <div class="caixa-mae">
+
+        <div class="caixa1">
+            <img src="./img/Super-Mario-Bros-Transparent-Images.png" alt="logo do mario bros" class="Super-Mario-Bros">
+
+            <p> Encanadores:</p> <b>Mário e Luigi -</b> <span class="destaque"><b>Resolvemos seus Problemas Com
+                    Estilo.</b></span>
+            <p>Você já se encontra em uma situação de emergência com encanamento?</p>
+            <p>Vazamentos inesperados,canos entupidos ou torneiras que não param de pingar?</p>
+            <p>Não se preocupe,porque estamos aqui para salvar o dia!.Apresentamos a vocês os encanadores mais famosos
+                do
+                Reino
+                dos Cogumelos -<b> Mário e Luigi!</b> </p>
+
+
+            <button onclick="mostrarForm()">Entre em contato</button>
+
+        </div>
+
+        <div class="caixa2">
+            <img src="./img/mario.png" class="mario-luigi">
+
+
+        </div>
+    </div>
+
+
+
+    <div class="caixa-video">
+
+        <video src="./video/Super Mario Bros  Encanadores.mp4" autoplay muted loop></video>
+        <div class="mascara-video">
+        </div>
+
+
+    </div>
+    <div class="audio-mario">
+        <audio id="meu-audio" src="./SUPER MARIO BROS.mp3" type="audio/mp3" controls autoplay loop>
+
+
+        </audio>
+
+        <script>
+            // Define o volume fixo para o áudio
+            var audio = document.getElementById("meu-audio");
+            audio.volume = 0.3;  // (valor entre 0.0 mudo e 1.0 máximo)
+        </script>
+
+    </div>
+
+    <div class="icone-watshapp">
+        <a href="tel:+5577988292713">
+            <img src="./img/whatsapp.png" alt="link-para-watshapp" class="imagem-watshapp">
+        </a>
+
+    </div>
+
+
+
+    <form class="formulario-fale-conosco" action="https://formcarry.com/s/w5L7aHTZiBU" method="POST"
+        enctype="multipart/form-data">
+        <input placeholder="Seu Nome" type="text" name="nome">
+        <input placeholder="Seu telefone" type="tel" name="telefone">
+        <input placeholder="Seu Email" type="email" name="email">
+        <textarea placeholder="Digite seu problema aqui..." name="duvida"></textarea>
+        <button type="submit">Pedir Orçamento</button>
+
+    </form>
+
+
+
+
+
+
+</body>
+
+<script src="./scripts.js"></script>
+
+
+
+</html>
+
+<!--A TAg <form textarea> SERVE PARA ESCREVER DUVIDAS POR EX EM FORMULÁRIO-->
