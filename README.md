@@ -1,4 +1,4 @@
-<h1>Projeto mario para aprendizado,utilizando linguagens:</h1>
+<h1>Projeto mario para aprendizado,utilizando as linguagens:</h1>
 <br>
 <lo>
 <li>Html</li>
