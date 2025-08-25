@@ -1,11 +1,11 @@
 <h1>Projeto mario para aprendizado,utilizando as linguagens:</h1>
 <br>
-<lo>
-<li>Html</li>
+<ol>
+<li><b>Html</b></li>
 <br>
-<li>Css</li>
+<li><b>Css</b></li>
 <br>
-<li>java script</li>
+<li><b>java script</b></li>
 </lo>
 
 
