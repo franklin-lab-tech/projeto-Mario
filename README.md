@@ -1,4 +1,4 @@
-<h1>Projeto mario para aprendizado,utilizando as linguagens:</h1>
+<h1>Projeto Mário que aprendi no <a href="https://www.devclub.com.br/">DevClub </a>,utilizando as linguagens:</h1>
 <br>
 <ul>
 <li><img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="html-logo"/></li>  
