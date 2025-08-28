@@ -8,6 +8,7 @@
 <li><img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="java-logo"/></li>
 </ul> 
 <br>
-<a href="https://franklin-lab-tech.github.io/projeto-Mario/">meu site</a>
+<a href="https://franklin-lab-tech.github.io/projeto-Mario/">meu projeto online</a>
+<br>
 <br>
 <img src="https://github.com/franklin-lab-tech/projeto-Mario/blob/main/img/mario%20mod.png?raw=true" alt="img-mario-logo">
